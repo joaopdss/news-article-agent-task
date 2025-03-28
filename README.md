@@ -3,7 +3,7 @@
 A Node.js application that provides a RAG (Retrieval-Augmented Generation) system for news articles. It ingests news article URLs from various sources (Kafka or CSV), processes the content using Gemini 2.0 Flash API with Structured Output (JSON), stores vector embeddings in Pinecone, and provides a query API to answer questions using the ingested knowledge.
 
 # Observation
-Its not a good practice to provide API keys in public responses like I am in this project, but for the purpose of the interview, I'll let in the repo until a response of my candidature .
+Its not a good practice to provide API keys in public responses like I am in this project, but for the purpose of the interview, and being a public task, I'll let in the repo until a response of my candidature .
 
 ## Features
 
