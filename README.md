@@ -33,22 +33,22 @@ Its not a good practice to provide API keys in public responses like I am in thi
 GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 
 # Pinecone
-PINECONE_API_KEY=YOUR_PINECONE_API_KEY
-PINECONE_ENVIRONMENT=YOUR_PINECONE_ENVIRONMENT
-PINECONE_INDEX_NAME=your-chosen-index-name # e.g., news-rag
+PINECONE_API_KEY=PINECONE_API_KEY
+PINECONE_ENVIRONMENT=PINECONE_ENVIRONMENT
+PINECONE_INDEX_NAME=index_name
 
 # Kafka 
 KAFKA_BROKER="pkc-ewzgj.europe-west4.gcp.confluent.cloud:9092"
 KAFKA_USERNAME="OXQDOMDXAEIPZDEG"
 KAFKA_PASSWORD="Rq9Jv5kKr4kfMTG0xkJZazgwOIKqduM+vbXjyxBK9EpE7FDLbcMRcbbx17TYEhZm"
 KAFKA_TOPIC_NAME="news"
-KAFKA_GROUP_ID_PREFIX="test-task-" # Consider adding a unique suffix like test-task-yourname
+KAFKA_GROUP_ID_PREFIX="test-task-"
 
 # Application Settings
 PORT=3000
 
 # Feature Flags
-ENABLE_KAFKA=false
+ENABLE_KAFKA=true
 
 ```
 
